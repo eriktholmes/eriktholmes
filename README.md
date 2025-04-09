@@ -3,7 +3,7 @@
 - 🌱 I’m currently learning towards interpretability type research
 - 💞️ I’m looking to collaborate on fun projects, code, etc.
 - 📫 How to reach me eriktholmes@gmail.com
-- ⚡ Fun fact: I like to garden and build things
+- ⚡ Fun fact: I love nature, coffee, and quality time. 
 
 <!---
 eriktholmes/eriktholmes is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
