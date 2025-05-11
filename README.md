@@ -1,11 +1,17 @@
-# 👋 Hi, I’m Erik Holmes
+# 👋 Hi, I’m Erik
 
-I’m a mathematician (PhD, algebraic number theory) transitioning into Machine Learning, with a growing focus on **AI interpretability**, **agentic models**, and **LLMs**. I love projects that combine mathematical insight with real-world impact, and I’m particularly excited about the frontier of safe and understandable AI systems.
+I am a postdoctoral fellow in number theory/arithmetic statistics and am currently transitioning into industry. As a mathematician I have always been drawn to computational exploration and have used Python throughout my research to generate, analyze, visualize data, and generally to build intuition around abstract mathematical objects. The more coding/computation that I am exposed to the more I seem to enjoy it and that is one of the many reasons for this transition. 
 
-- 🔭 Currently working through foundational ML projects like [micrograd](https://github.com/eriktholmes/Zero-to-hero-course/tree/main/episode-1/micrograd) and building toward applied interpretability research
-- 📚 Long-term ML/AI research interests: interpretability, alignment, and AI safety
-- ✍️ Also working on varous [research projects](https://erikholmesmath.com/research.htm) in number theory: many related to geometric properties of lattices and the corresponding distributions.
-- 🎥 Fun fact: I used to work in video production while in grad school and still love storytelling through visuals
+My current focus is on machine learning where-with the rapid growth of AI-I find myself thinking often about safety and the potential impact on society. As such, I am increasingly interested in **interpretability** and **alignment** though I am certainly in an exploratory phase. I would love to contribute to safe, understandable AI systems and to apply my research experience in pure math to problems that have an immediate impact. 
+
+### Currently I am:
+- 📚 Working through foundational ML, working through, for example projects like [micrograd](https://github.com/eriktholmes/Zero-to-hero-course/tree/main/episode-1/micrograd) and building towards applied interpretability research.
+- 📈 Long-term ML/AI learning goals/research interests: interpretability, alignment, and AI safety
+- ✍️ Also working on various [research projects](https://erikholmesmath.com/research.htm) related to the *geometry of lattices* in number theory and their distributions.
+
+#### 🎥 Fun fact: I worked in video production while in grad school and absolutely love good visual storytellers
+
+
 
 ## 📌 Featured Repositories
 
@@ -14,12 +20,18 @@ A structured walkthrough of Andrej Karpathy’s Zero to Hero YouTube series. Inc
 - A from-scratch build of [micrograd](https://github.com/eriktholmes/Zero-to-hero-course/tree/main/episode-1/micrograd)
 - Experiments on custom activations, visualization of gradient flows, and interpretability at the neuron level
 - Exploratory blog-style notes and diagrams (with more to come!)
+- In progress **makemore**, working to implement the bigram example next.
 
 ### [`Math_things`](https://github.com/eriktholmes/math_things)
 A catch-all for math-related code, currently focused on:
 - Computational experiments related to unit lattices in number fields
 - Visualization of rank 2 shapes within the [fundamental domain](/Math_things/unit_shapes/FD_domain.png)
-- Ongoing research on lattice shapes and Galois module structure
+- Ongoing research on lattices and questions of distribution
+- Ultimately, I am excited about a possible application of lattice shapes to log terms in Malle's conjecture (roughly about the asymptotics of specialized counting functions)
+
+
+
+
 
 ## 🔗 Contact & More
 - 📫 eriktholmes@gmail.com
