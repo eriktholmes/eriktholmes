@@ -4,8 +4,8 @@ I am a postdoctoral fellow in number theory/arithmetic statistics and am current
 
 My current focus is on machine learning where-with the rapid growth of AI-I find myself thinking often about safety and the potential impact on society. As such, I am increasingly interested in **interpretability** and **alignment** though I am certainly in an exploratory phase. I would love to contribute to safe, understandable AI systems and to apply my research experience in pure math to problems that have an immediate impact. 
 
-### Currently I am:
-- 📚 Working through foundational ML, working through, for example projects like [micrograd](https://github.com/eriktholmes/Zero-to-hero-course/tree/main/episode-1/micrograd) and building towards applied interpretability research.
+### Current work/goals:
+- 📚 Working through foundational ML, for example projects like [micrograd](https://github.com/eriktholmes/Zero-to-hero-course/tree/main/episode-1/micrograd) and building towards applied interpretability research.
 - 📈 Long-term ML/AI learning goals/research interests: interpretability, alignment, and AI safety
 - ✍️ Also working on various [research projects](https://erikholmesmath.com/research.htm) related to the *geometry of lattices* in number theory and their distributions.
 
