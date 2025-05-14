@@ -1,12 +1,12 @@
 # 👋 Hi, I’m Erik
 
-I am a postdoctoral fellow in number theory/arithmetic statistics and am currently transitioning into industry. As a mathematician I have always been drawn to computational exploration and have used Python throughout my research to generate, analyze, visualize data, and generally to build intuition around abstract mathematical objects. The more coding/computation that I am exposed to the more I seem to enjoy it and that is one of the many reasons for this transition. 
+I am a postdoctoral fellow in number theory/arithmetic statistics and am transitioning into industry. As a mathematician I have always been drawn to computational exploration and have used Python throughout my research to generate, analyze and visualize data, and more generally to build intuition around abstract mathematical objects. The more coding/computation that I am exposed to the more I seem to enjoy it and that is one of the many reasons for this transition. 
 
-My current focus is on machine learning where-with the rapid growth of AI-I find myself thinking often about safety and the potential impact on society. As such, I am increasingly interested in **interpretability** and **alignment** though I am certainly in an exploratory phase. I would love to contribute to safe, understandable AI systems and to apply my research experience in pure math to problems that have an immediate impact. 
+My current focus is on machine learning where-with the rapid growth of AI-I find myself thinking often about safety and the potential impacts on society. As such, I am increasingly interested in **interpretability** and **alignment** though I am certainly in an exploratory phase. Ultimately, I would love to contribute to safe, understandable AI systems and to apply my research experience in pure math to problems that have an immediate impact. 
 
 ### Current work/goals:
-- 📚 Working through foundational ML, for example projects like [micrograd](https://github.com/eriktholmes/Zero-to-hero-course/tree/main/episode-1/micrograd) and building towards applied interpretability research.
-- 📈 Long-term ML/AI learning goals/research interests: interpretability, alignment, and AI safety
+- 📚 Working on building a solid foundation through ML projects and courses, for example projects like [micrograd](https://github.com/eriktholmes/Zero-to-hero-course/tree/main/episode-1/micrograd) and building towards applied interpretability research.
+- 📈 Long-term learning goals/research interests: interpretability, alignment, and AI safety
 - ✍️ Also working on various [research projects](https://erikholmesmath.com/research.htm) related to the *geometry of lattices* in number theory and their distributions.
 
 #### 🎥 Fun fact: I worked in video production while in grad school and absolutely love good visual storytellers
