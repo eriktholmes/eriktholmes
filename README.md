@@ -7,7 +7,9 @@ My current focus is on machine learning where-with the rapid growth of AI-I find
 ### Current work/goals:
 - 📚 understand foundational concepts and interpretability through ML projects and courses, for example projects builds like [micrograd](https://github.com/eriktholmes/Zero-to-hero-course/tree/main/episode-1/micrograd) and [makemore (bigram for now!)](https://github.com/eriktholmes/Zero-to-hero-course/tree/main/episode_2).
   - these toy problems led me to port the micrograd approach to PyTorch, train a basic classifier on MNIST data and analyze neuron behavior through pixel activation maps. (CNN to come)
-- 🥪 (ai_sandbox.,. not sandwich) this is another, less structured, space for experiments:
+    - I decided to create a somewhat in depth [MLP notebook](https://github.com/eriktholmes/educational_notebooks/blob/main/mlp_explained_pytorch.ipynb) from this micrograd perspective.
+    - Also, creating a repo specifically designed for [interpretabilty applied to MNIST](https://github.com/eriktholmes/interpreting_mnist). 
+- 🥪 ([ai_sandbox](https://github.com/eriktholmes/ai_sandbox)) this is another, less structured, space for experiments:
   - Currently working on the basics towards AlphaZero: build game environments for TicTacToe and Connect Four, and implemented basic Monte Carlo Tree Search for Tic Tac Toe. Ran simple experiements such as two players moving at random, random vs MCTS, random vs Greedy play, etc. (more to come). 
 - 📈 Long-term learning goals/research interests: interpretability, alignment, and AI safety
 - ✍️ Also working on various [research projects](https://erikholmesmath.com/research.htm) related to the *geometry of lattices* in number theory and their distributions.
