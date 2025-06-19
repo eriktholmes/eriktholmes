@@ -22,17 +22,32 @@ My current focus is on machine learning where-with the rapid growth of AI-I find
 ### [`Zero-to-hero-course`](https://github.com/eriktholmes/Zero-to-hero-course)
 A walkthrough of Andrej Karpathy’s Zero to Hero YouTube series. Includes:
 - A build of [micrograd](https://github.com/eriktholmes/Zero-to-hero-course/tree/main/episode-1/micrograd)
-- Experiments on custom activations, visualization of gradient flows, and attempts at understanding neuron activations
+- Experiments on custom activations, and attempts at understanding neuron activations
 - Exploratory/blog-style notes and diagrams (with more to come!)
-- In progress **makemore**, working to implement the bigram example next.
+- In progress **makemore**, working to implement the character-level language model example next (bigram is in there)
 
+### [`interpreting_mnist`](https://github.com/eriktholmes/interpreting_mnist)
+This is our interpretability project of models trained on MNIST. While the dataset and models are intentionally simple, the goal is to build and document real interpretability tools — starting from first principles and scaling up. I hope that this project to those who, like me, learn best by experimenting and building.
+
+So far the repo will be organized into two tracks: the `MLP` and the `CNN`.
+>#### [`MLP`](https://github.com/eriktholmes/interpreting_mnist/tree/main/MLP):
+>Our [first notebook](https://github.com/eriktholmes/interpreting_mnist/blob/main/MLP/01_MLP_for_Interpretability_non_normalized.ipynb) investigates the effects of training an MLP on non-normalized MNIST data. By manually logging activations during the forward pass, we track how internal representations evolve over time.
+>>Key observations:
+>>
+>>- Significant mean drift and growing variance in early layer activations
+>>- Class based activation statistics reveal internal instability, despite strong test performance (~94–97%)
+>>- Clear motivation for normalization techniques to improve training!
+>The goal with this first notebook is to motivate deeper interpretability tools (e.g., activation hooks, PCA, gradient tracking), and provide a foundation for exploring how neural networks process and separate information — one layer at a time.
+
+
+<!--
 ### [`Math_things`](https://github.com/eriktholmes/math_things)
 A catch-all for math-related code, currently focused on:
 - Computational experiments related to unit lattices in number fields
 - Visualization of rank 2 shapes within the [fundamental domain](/Math_things/unit_shapes/FD_domain.png)
 - Ongoing research on lattices and questions of distribution
 - Ultimately, I am excited about a possible application of lattice shapes to log terms in Malle's conjecture (which is roughly about the asymptotics of specialized counting functions) and hope to have some code related to that at some point...?
-
+-->
 
 
 
