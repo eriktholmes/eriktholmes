@@ -4,7 +4,7 @@
 
 <br>
 
-  | <sub>⚠️ Disclaimer:  This repo is part learning journal, part research sandbox — evolving (sometimes daily 🤞) as I work through various projects. It’s a bit nerdy, occasionally verbose, and sometimes a little chaotic, but the goal is simple: build toward interpretability from the ground up.</sub>| 
+  | <sub>⚠️ Disclaimer:  This GitHub is part learning journal, part research sandbox — evolving (sometimes daily 🤞) as I work through various projects. It’s a bit nerdy, occasionally verbose, and sometimes a little chaotic, but the goal is simple: build toward interpretability from the ground up.</sub>| 
   | --------- | 
 <br>
 
