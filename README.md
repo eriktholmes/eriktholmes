@@ -1,23 +1,65 @@
-# 👋 Hi, I’m Erik
 
-I am a postdoctoral fellow in number theory/arithmetic statistics and am transitioning into industry. As a mathematician I have always been drawn to computational exploration and have used Python throughout my research to generate, analyze and visualize data, and more generally to build intuition around abstract mathematical objects. The more coding/computation that I am exposed to the more I seem to enjoy it and that is one of the many reasons for this transition. 
+<h1 align="center"> Erik Holmes </h1>
+<h3 align="center">   Mathematics | Machine Learning | Research  </h3>
 
-My current focus is on machine learning where-with the rapid growth of AI-I find myself thinking often about safety and the potential impacts on society. As such, I am increasingly interested in **interpretability** and **alignment** though I am certainly in an exploratory phase. Ultimately, I would love to contribute to safe, understandable AI systems and to apply my research experience in pure math to problems that have an immediate impact. 
+<br>
 
-### Current work/goals:
-- 📚 understand foundational concepts and interpretability through ML projects and courses, for example projects builds like [micrograd](https://github.com/eriktholmes/Zero-to-hero-course/tree/main/episode-1/micrograd) and [makemore (bigram for now!)](https://github.com/eriktholmes/Zero-to-hero-course/tree/main/episode_2).
-  - these toy problems led me to port the micrograd approach to PyTorch, train a basic classifier on MNIST data and analyze neuron behavior through pixel activation maps. (CNN to come)
-    - I decided to create a somewhat in depth [MLP notebook](https://github.com/eriktholmes/educational_notebooks/blob/main/mlp_explained_pytorch.ipynb) from this micrograd perspective.
-    - Also, creating a repo specifically designed for [interpretabilty applied to MNIST](https://github.com/eriktholmes/interpreting_mnist). 
-- 🥪 ([ai_sandbox](https://github.com/eriktholmes/ai_sandbox)) this is another, less structured, space for experiments:
-  - Currently working on the basics towards AlphaZero: build game environments for TicTacToe and Connect Four, and implemented basic Monte Carlo Tree Search for Tic Tac Toe. Ran simple experiements such as two players moving at random, random vs MCTS, random vs Greedy play, etc. (more to come). 
-- 📈 Long-term learning goals/research interests: interpretability, alignment, and AI safety
-- ✍️ Also working on various [research projects](https://erikholmesmath.com/research.htm) related to the *geometry of lattices* in number theory and their distributions.
+  | <sub>⚠️ Disclaimer:  This repo is part learning journal, part research sandbox — evolving (sometimes daily 🤞) as I work through various projects. It’s a bit nerdy, occasionally verbose, and sometimes a little chaotic, but the goal is simple: build toward interpretability from the ground up.</sub>| 
+  | --------- | 
+<br>
 
-#### 🎥 Fun fact: I worked as a video editor for a short while during grad school and have such love and respect for good visual storytelling.
+### About me: 
+I am currently a postdoctoral fellow at the University of Toronto working in number theory/arithmetic statistics, and am transitioning into industry. As a mathematician, I have always been drawn to computational methods and have used Python throughout my career to generate, analyze, and visualize data. More generally, I try to write code to help visualize and build intuition around mathematical objects. 
+
+My current focus is on machine learning where-with the rapid growth of AI-I find myself thinking often about safety and the potential impacts this field has on society. As such, I am increasingly interested in **interpretability** and **alignment** though I am certainly still in an exploratory phase. 
+***Ultimately**, I hope to contribute to safe, understandable AI systems and to apply my research experience in pure math to problems that have an immediate impact.*
+
+> 🎥 *Fun fact: I worked as a video editor for a short while during grad school and have a deep love and respect for storytellers. Sometimes this promotes an overly verbous style of writing on my behalf.*
+
+<br> 
 
 
-## 📌 Featured Repositories
+## 🎯 Goals:
+> Building toward an interpretability/safety-focused ML research or engineering role by August 2025.
+#### 🔍 Current (Summer 2025):
+- Rebuild core ML models from scratch (micrograd, character-level language models (makemore), transformers)
+- Analyze internals of trained networks (e.g., MLPs/CNNs on MNIST)
+- Explore toy RL setups (AlphaZero-lite, MCTS agents)
+- Start working with tools like TransformerLens
+
+
+#### 🔭 Long-Term:
+- Contribute to safe, interpretable AI systems
+- Work at the intersection of math, ML, and alignment
+- Apply my research skills to problems with real-world impact
+
+
+<!--
+- 📚 I am working to understand foundational concepts and interpretability through ML projects and courses: for example project builds like [micrograd](https://github.com/eriktholmes/Zero-to-hero-course/tree/main/episode-1/micrograd),  [makemore](https://github.com/eriktholmes/Zero-to-hero-course/tree/main/episode_2), and (*currently the skeleton of*) [AlphaZero lite](https://github.com/eriktholmes/ai_sandbox). 
+  - these toy problems led me to port the micrograd approach to PyTorch, train a basic classifier on MNIST data and analyze neuron behavior through pixel activation maps.
+    - [HERE](https://github.com/eriktholmes/educational_notebooks/blob/main/mlp_explained_pytorch.ipynb) I spend an afternoon writing a basic overview of MLPs from this micrograd perspective.  
+- 📈 Long-term learning goals/research interests: interpretability, alignment, and AI safety.
+  - Baby steps towards this is a repo specifically designed for [interpretabilty](https://github.com/eriktholmes/interpreting_mnist) of models trained on MNIST.
+- ✍️ Also I am still working on various [research projects](https://erikholmesmath.com/research.htm) in number theory. 
+-->
+
+<br> 
+
+## 🪚 Current work
+- 🔧 [micrograd](https://github.com/eriktholmes/Zero-to-hero-course/tree/main/episode-1), [makemore](https://github.com/eriktholmes/Zero-to-hero-course/tree/main/episode_2): foundational deep learning models, built for hands-on learning
+- 🔬 [interpreting_mnist](https://github.com/eriktholmes/interpreting_mnist/tree/main/MLP): exploratory repo on internal neuron behavior (activation drift, normalization effects, etc.)
+- 🧠 [mlp_explained_pytorch](https://github.com/eriktholmes/educational_notebooks/blob/main/mlp_explained_pytorch.ipynb): breakdown of an MLP in PyTorch, inspired by the micrograd build
+- 🎲 [ai_sandbox](https://github.com/eriktholmes/ai_sandbox): experimental repo, currently looking at reinforcement learning environments and AlphaZero-style agents
+- 🔣 [Number theory research](https://erikholmesmath.com/research.htm): ongoing collaborations on unit lattices, shapes, and Galois module structure
+
+
+
+
+
+<br> 
+<br> 
+
+## 📌 Featured (ML related) Repositories
 
 ### [`Zero-to-hero-course`](https://github.com/eriktholmes/Zero-to-hero-course)
 A walkthrough of Andrej Karpathy’s Zero to Hero YouTube series. Includes:
@@ -25,20 +67,25 @@ A walkthrough of Andrej Karpathy’s Zero to Hero YouTube series. Includes:
 - Experiments on custom activations, and attempts at understanding neuron activations
 - Exploratory/blog-style notes and diagrams (with more to come!)
 - In progress **makemore**, working to implement the character-level language model example next (bigram is in there)
-
+---
 ### [`interpreting_mnist`](https://github.com/eriktholmes/interpreting_mnist)
-This is our interpretability project of models trained on MNIST. While the dataset and models are intentionally simple, the goal is to build and document real interpretability tools — starting from first principles and scaling up. I hope that this project to those who, like me, learn best by experimenting and building.
+The goal: to interpret models trained on MNIST. While the dataset and models are intentionally simple, the goal is to build and document real interpretability tools — starting from first principles and scaling up. 
 
 So far the repo will be organized into two tracks: the `MLP` and the `CNN`.
->#### [`MLP`](https://github.com/eriktholmes/interpreting_mnist/tree/main/MLP):
->Our [first notebook](https://github.com/eriktholmes/interpreting_mnist/blob/main/MLP/01_MLP_for_Interpretability_non_normalized.ipynb) investigates the effects of training an MLP on non-normalized MNIST data. By manually logging activations during the forward pass, we track how internal representations evolve over time.
->>Key observations:
->>
->>- Significant mean drift and growing variance in early layer activations
->>- Class based activation statistics reveal internal instability, despite strong test performance (~94–97%)
->>- Clear motivation for normalization techniques to improve training!
->The goal with this first notebook is to motivate deeper interpretability tools (e.g., activation hooks, PCA, gradient tracking), and provide a foundation for exploring how neural networks process and separate information — one layer at a time.
+#### :one: [`MLP`](https://github.com/eriktholmes/interpreting_mnist/tree/main/MLP):
+ - Our [first notebook](https://github.com/eriktholmes/interpreting_mnist/blob/main/MLP/01_MLP_for_Interpretability_non_normalized.ipynb) investigates the effects of training an MLP on non-normalized MNIST data. By manually logging activations during the forward pass, we track how internal representations evolve over time.\
+**Observations:**
+    - Significant mean drift and growing variance in early layer activations
+    - Class based activation statistics reveal internal instability, despite strong test performance (~94–97%)
+    - Clear motivation for normalization techniques to improve training!
+    > The goal with this first notebook is to motivate deeper interpretability tools (e.g., activation hooks, PCA, gradient tracking), and provide a foundation for exploring how neural networks process and separate information — one layer at a time.
+---
 
+### [```ai_sandbox```](https://github.com/eriktholmes/ai_sandbox) 
+This is another, less structured, space for ML/AI experiments:
+- Currently working on the basics towards AlphaZero: build game environments for TicTacToe and Connect Four, and implemented basic Monte Carlo Tree Search for Tic Tac Toe.
+  - Ran simple experiements such as two players moving at random, random vs MCTS, random vs Greedy play, etc.
+  - (more to come)
 
 <!--
 ### [`Math_things`](https://github.com/eriktholmes/math_things)
@@ -51,11 +98,12 @@ A catch-all for math-related code, currently focused on:
 
 
 
+<br> 
+<br> 
 
 ## 🔗 Contact & More
 - 📫 eriktholmes@gmail.com
 - 🌐 [erikholmesmath.com](https://erikholmesmath.com)
-- 🧠 Coming soon: blog posts + visual explanations of core ML/interpretability ideas
 
 
 <!---
