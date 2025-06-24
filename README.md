@@ -66,7 +66,7 @@ A walkthrough of Andrej Karpathy’s Zero to Hero YouTube series. Includes:
 - A build of [micrograd](https://github.com/eriktholmes/Zero-to-hero-course/tree/main/episode-1/micrograd)
 - Experiments on custom activations, and attempts at understanding neuron activations
 - Exploratory/blog-style notes and diagrams (with more to come!)
-- In progress **makemore**, working to implement the character-level language model example next (bigram is in there)
+- Currently in progress: [makemore](https://github.com/eriktholmes/Zero-to-hero-course/tree/main/episode_2), a character-level language model inspired by Karpathy’s series. So far, we've implemented a bigram model that predicts the next character from the previous one, trained on the names dataset. Next, we are extending this to a flexible context window model that utilizes multiple preceding characters. Along the way, we are incorporating techniques from later episodes—like improved optimization strategies and training intuition. For readers interested in interpretability and training dynamics (e.g., why normalization matters), see also the interpreting_mnist repo below.
 ---
 ### [`interpreting_mnist`](https://github.com/eriktholmes/interpreting_mnist)
 The goal: to interpret models trained on MNIST. While the dataset and models are intentionally simple, the goal is to build and document real interpretability tools — starting from first principles and scaling up. 
