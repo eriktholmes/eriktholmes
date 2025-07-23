@@ -50,7 +50,7 @@ My current focus is on machine learning where-with the rapid growth of AI-I find
 - 🔬 [interpreting_mnist](https://github.com/eriktholmes/interpreting_mnist/tree/main/MLP): exploratory repo on internal neuron behavior (activation drift, normalization effects, etc.)
 - 🧠 [mlp_explained_pytorch](https://github.com/eriktholmes/educational_notebooks/blob/main/mlp_explained_pytorch.ipynb): breakdown of an MLP in PyTorch, inspired by the micrograd build
 - 🎲 [ai_sandbox](https://github.com/eriktholmes/ai_sandbox): experimental repo, currently looking at reinforcement learning environments and AlphaZero-style agents
-- 🔣 [Number theory research](https://erikholmesmath.com/research.htm): ongoing collaborations on unit lattices, shapes, and Galois module structure
+- 🔣 [Number theory research](https://erikholmesmath.com/research.htm): ongoing collaborations on lattices in number fields, and in how their geometry varies within *natural* families. 
 
 
 
