@@ -9,14 +9,14 @@
 <br>
 
 ### About me: 
-I am currently a postdoctoral fellow at the University of Toronto working in number theory/arithmetic statistics, and am transitioning into industry. As a mathematician, I have always been drawn to computational methods to help visualize and build intuition around mathematical objects, to seek patterns or find exploitable features, and utilize this computationally informed perspective to prove properties about the objects. This is the mindset that drives my exploration in industry/machine learning. 
+I am currently a postdoctoral fellow at the University of Toronto working in number theory/arithmetic statistics, and am transitioning into industry. As a mathematician, I’ve always been drawn to computational tools — not just to run calculations, but to visualize abstract structures, uncover patterns, and build intuition. This exploratory mindset has often helped guide formal proofs and various insights in my work. That approach now drives my shift into machine learning and I’m especially excited by areas of industry where rigorous thinking and experimentation intersect — where we can use computation not just to build models, but to understand them. 
 
-> I like applications! Whether in math, or machine learning, I find it most appealing when we can use our work to make an impact on another area/field/etc. 
+> I enjoy applications and getting my hands dirty. Whether in mathematics, ML — or construction 🔨 — I’m most energized when my work connects to something larger: informing another field, clarifying something messy, or contributing to real-world impact.
 
-Currently I am focused on machine learning where-with the rapid growth of AI-I find myself thinking often about safety and the potential impacts this field has on society. As such, I am increasingly interested in **interpretability** and **alignment** though I am certainly still in an exploratory phase.
-***Ultimately**, I hope to contribute to safe, understandable AI systems and more generally to apply my research experience in pure math to problems that have an immediate impact.*
+With the rapid acceleration of AI, I’ve become increasingly focused on the safety and societal implications of these systems. This has led me to pursue interpretability and alignment — not only as technical challenges, but as essential questions for building trustworthy models.
+***Ultimately**, I hope to contribute to safe, understandable AI systems — and to apply the rigor of pure mathematics to problems with immediate, real-world impact.*
 
-> 🎥 *Fun fact: I worked as a video editor for a short while during grad school and have a deep love and respect for storytellers. Sometimes this promotes an overly verbous style of writing on my behalf.*
+> 🎥🔨 *Fun fact:  I used to work in residential construction, and more recently did video editing during grad school.*
 
 <br> 
 
