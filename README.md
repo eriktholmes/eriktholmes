@@ -9,9 +9,13 @@
 <br>
 
 ### About me: 
-I am currently a postdoctoral fellow at the University of Toronto working in number theory/arithmetic statistics, and am transitioning into industry. As a mathematician, I’ve always been drawn to computational tools — not just to run calculations, but to visualize abstract structures, uncover patterns, and build intuition. This exploratory mindset has often helped guide formal proofs and various insights in my work. That approach now drives my shift into machine learning and I’m especially excited by areas of industry where rigorous thinking and experimentation intersect — where we can use computation not just to build models, but to understand them. 
+I am currently a postdoctoral fellow at the University of Toronto working in number theory/arithmetic statistics, and am transitioning into industry. 
 
-> I enjoy applications and getting my hands dirty. Whether in mathematics, ML — or construction 🔨 — I’m most energized when my work connects to something larger: informing another field, clarifying something messy, or contributing to real-world impact.
+- **As a mathematician**, I’ve always been drawn to computational tools — not just to run calculations, but to visualize abstract structures, uncover patterns, and build intuition. This exploratory mindset has often helped guide formal proofs and various insights in my work. 
+
+- **Transitioning into industry,**  I’m especially excited by areas where rigorous thinking and experimentation intersect — where we can use computation not just to build models, but to understand them. 
+
+- **I enjoy** applications and getting my hands dirty. Whether in mathematics, ML — or construction 🔨 — I’m most energized when my work connects to something larger: informing another field, clarifying something messy, or contributing to real-world impact.
 
 With the rapid acceleration of AI, I’ve become increasingly focused on the safety and societal implications of these systems. This has led me to pursue interpretability and alignment — not only as technical challenges, but as essential questions for building trustworthy models.
 ***Ultimately**, I hope to contribute to safe, understandable AI systems — and to apply the rigor of pure mathematics to problems with immediate, real-world impact.*
