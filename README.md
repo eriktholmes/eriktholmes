@@ -4,15 +4,17 @@
 
 <br>
 
-  | <sub>⚠️ Disclaimer:  This GitHub is part learning journal, part experimental sandbox — evolving (sometimes daily 🤞) as I work through various projects. It’s a bit nerdy, occasionally verbose, and sometimes a little chaotic, but the goal is simple: build toward interpretability from the ground up.</sub>| 
+  | <sub>⚠️ Disclaimer: This GitHub is part learning journal, part experimental sandbox — evolving (sometimes daily 🤞) as I work through various ML projects. It's a bit nerdy, occasionally verbose, and sometimes a little chaotic — but the goal is simple: build a rigorous foundation in ML engineering with a focus on interpretability and alignment.</sub>| 
   | --------- | 
 <br>
 
 ### About me: 
-I am currently a postdoctoral fellow at the University of Toronto working in number theory/arithmetic statistics, and am transitioning into industry. As a mathematician, I have always been drawn to computational methods and regularly utilize Python to generate, analyze, and visualize data. Generally, I try to write code to help visualize and build intuition around mathematical objects and use this information to help prove things about the objects. 
+I am currently a postdoctoral fellow at the University of Toronto working in number theory/arithmetic statistics, and am transitioning into industry. As a mathematician, I have always been drawn to computational methods to help visualize and build intuition around mathematical objects, to seek patterns or find exploitable features, and utilize this computationally informed perspective to prove properties about the objects. This is the mindset that drives my exploration in industry/machine learning. 
 
-My current focus is on machine learning where-with the rapid growth of AI-I find myself thinking often about safety and the potential impacts this field has on society. As such, I am increasingly interested in **interpretability** and **alignment** though I am certainly still in an exploratory phase. 
-***Ultimately**, I hope to contribute to safe, understandable AI systems and to apply my research experience in pure math to problems that have an immediate impact.*
+> I like applications! Whether in math, or machine learning, I find it most appealing when we can use our work to make an impact on another area/field/etc. 
+
+Currently I am focused on machine learning where-with the rapid growth of AI-I find myself thinking often about safety and the potential impacts this field has on society. As such, I am increasingly interested in **interpretability** and **alignment** though I am certainly still in an exploratory phase.
+***Ultimately**, I hope to contribute to safe, understandable AI systems and more generally to apply my research experience in pure math to problems that have an immediate impact.*
 
 > 🎥 *Fun fact: I worked as a video editor for a short while during grad school and have a deep love and respect for storytellers. Sometimes this promotes an overly verbous style of writing on my behalf.*
 
