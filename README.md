@@ -51,8 +51,8 @@ With the rapid acceleration of AI, I’ve become increasingly focused on the saf
 
 <br> 
 
-## 🪚 Current work
-- 🔧 [micrograd](https://github.com/eriktholmes/Zero-to-hero-course/tree/main/episode-1), [makemore](https://github.com/eriktholmes/Zero-to-hero-course/tree/main/episode_2): foundational deep learning models, built for hands-on learning
+## 🪚 Current/Recent work:
+- 🔧 [micrograd](https://github.com/eriktholmes/zero_to_hero_course/tree/main/micrograd), [makemore](https://github.com/eriktholmes/zero_to_hero_course/tree/main/makemore), [gpt_mini](https://github.com/eriktholmes/zero_to_hero_course/tree/main/gpt): foundational deep learning models, built for hands-on learning
 - 🔬 [interpreting_mnist](https://github.com/eriktholmes/interpreting_mnist/tree/main/MLP): exploratory repo on internal neuron behavior (activation drift, normalization effects, etc.)
 - 🧠 [mlp_explained_pytorch](https://github.com/eriktholmes/educational_notebooks/blob/main/mlp_explained_pytorch.ipynb): breakdown of an MLP in PyTorch, inspired by the micrograd build
 - 🎲 [ai_sandbox](https://github.com/eriktholmes/ai_sandbox): experimental repo, currently looking at reinforcement learning environments and AlphaZero-style agents
@@ -73,6 +73,7 @@ A walkthrough of Andrej Karpathy’s Zero to Hero YouTube series. Includes:
 - Experiments on custom activations, and attempts at understanding neuron activations
 - Exploratory/blog-style notes and diagrams (with more to come!)
 - Currently in progress: [makemore](https://github.com/eriktholmes/Zero-to-hero-course/tree/main/episode_2), a character-level language model inspired by Karpathy’s series. So far, we've implemented a bigram model that predicts the next character from the previous one, trained on the names dataset. Next, we are extending this to a flexible context window model that utilizes multiple preceding characters. Along the way, we are incorporating techniques from later episodes—like improved optimization strategies and training intuition. For readers interested in interpretability and training dynamics (e.g., why normalization matters), see also the interpreting_mnist repo below.
+- [GPT](https://github.com/eriktholmes/zero_to_hero_course/tree/main/gpt): We build up slowly from a simple bigram model-as in makemore-to a samll decoder only transformer trained on a CPU, and eventually ending by scaling up the models parameters and running on a T4 GPU. 
 ---
 ### [`interpreting_mnist`](https://github.com/eriktholmes/interpreting_mnist)
 The goal: to interpret models trained on MNIST. While the dataset and models are intentionally simple, the goal is to build and document real interpretability tools — starting from first principles and scaling up. 
