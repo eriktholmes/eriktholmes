@@ -4,11 +4,11 @@
 
 <br>
 
-  | <sub>⚠️ Disclaimer: This GitHub is part learning journal, part experimental sandbox — evolving (sometimes daily 🤞) as I work through various ML projects. It's a bit nerdy, occasionally verbose, and sometimes a little chaotic — but the goal is simple: build a rigorous foundation in ML engineering with a focus on interpretability and alignment.</sub>| 
+  | <sub>⚠️ Disclaimer: This GitHub is part learning journal/blog, part experimental sandbox — evolving (sometimes daily 🤞) as I work through various projects. It's a bit nerdy, occasionally verbose, and sometimes a little chaotic — but the goal is to build a rigorous foundation in maachine learning with a focus on interpretability and alignment.</sub>| 
   | --------- | 
 <br>
 
-### About me: 
+## About me: 
 I am currently a postdoctoral fellow at the University of Toronto working in number theory/arithmetic statistics, and am transitioning into industry. 
 
 - **As a mathematician**, I’ve always been drawn to computational tools — not just to run calculations, but to visualize abstract structures, uncover patterns, and build intuition. This exploratory mindset has often helped guide formal proofs and various insights in my work. 
@@ -22,22 +22,29 @@ With the rapid acceleration of AI, I’ve become increasingly focused on the saf
 
 > 🎥🔨 *Fun fact:  I used to work in residential construction, and more recently did video editing during grad school.*
 
+
+
+## About this github:
+Most of my repos involve small from-scratch builds, visualizations (whenever possible), and interpretability experiments. The hope is that they are readable (albeit a bit long at times), testable, and useful for learning — both mine and yours. More about my approach to learning [here](github.com/eriktholmes/learning_blog)
+
 <br> 
 
 
-## 🎯 Goals:
-> Building toward an interpretability/safety-focused ML research or engineering role by August 2025.
-#### 🔍 Current (Summer 2025):
-- Rebuild core ML models from scratch (micrograd, character-level language models (makemore), transformers)
-- Analyze internals of trained networks (e.g., MLPs/CNNs on MNIST)
-- Explore toy RL setups (AlphaZero-lite, MCTS agents)
-- Start working with tools like TransformerLens
 
+## 🎯 Goals
 
-#### 🔭 Long-Term:
+> Building toward an interpretability/safety-focused ML research or engineering role by **August 2025**.
+
+### 🔍 Current Focus (Summer 2025)
+- Rebuild core ML models from scratch (`micrograd`, `makemore`, `GPT`)
+- Analyze internals of trained networks (MNIST MLPs/CNNs)
+- Explore toy RL setups (`AlphaZero-lite`, MCTS agents)
+- Begin using tools like `TransformerLens` for interpretability
+
+### 🔭 Long-Term
 - Contribute to safe, interpretable AI systems
-- Work at the intersection of math, ML, and alignment
-- Apply my research skills to problems with real-world impact
+- Apply math/ML hybrid skills to real-world problems
+- Collaborate on research that bridges theory and applied ML
 
 
 <!--
@@ -105,7 +112,7 @@ A catch-all for math-related code, currently focused on:
 
 
 
-<br> 
+<br>
 <br> 
 
 ## 🔗 Contact & More
