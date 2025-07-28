@@ -25,7 +25,7 @@ With the rapid acceleration of AI, I’ve become increasingly focused on the saf
 
 
 ## About this github:
-Most of my repos involve small from-scratch builds, visualizations (whenever possible), and interpretability experiments. The hope is that they are readable (albeit a bit long at times), testable, and useful for learning — both mine and yours. More about my approach to learning [here](github.com/eriktholmes/learning_blog)
+Most of my repos involve small from-scratch builds, visualizations (whenever possible), and interpretability experiments. The hope is that they are readable (albeit a bit long at times), testable, and useful for learning — both mine and yours. More about my approach [here](https://github.com/eriktholmes/eriktholmes/blob/main/learning_approach.md).
 
 <br> 
 
