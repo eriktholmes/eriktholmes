@@ -4,24 +4,24 @@
 
 <br>
 
-  | <sub>⚠️ Disclaimer: This GitHub is part learning journal/blog, part experimental sandbox — evolving (sometimes daily 🤞) as I work through various projects. It's a bit nerdy, occasionally verbose, and sometimes a little chaotic — but the goal is to build a rigorous foundation in maachine learning with a focus on interpretability and alignment.</sub>| 
+  | <sub>⚠️ Disclaimer: This GitHub is part learning journal/blog, part experimental sandbox — evolving as I work through various projects. It's a bit nerdy, occasionally verbose, and sometimes a little chaotic — but the goal is to build a rigorous foundation in maachine learning with a focus on interpretability and alignment.</sub>| 
   | --------- | 
 <br>
 
-## About me: 
-I am currently a postdoctoral fellow at the University of Toronto working in number theory/arithmetic statistics, and am transitioning into industry. 
+## About Me
+I'm currently a postdoctoral fellow at the University of Toronto working in number theory and arithmetic statistics, and I'm in the process of transitioning into industry.
 
-- **As a mathematician**, I’ve always been drawn to computational tools — not just to run calculations, but to visualize abstract structures, uncover patterns, and build intuition. This exploratory mindset has often helped guide formal proofs and various insights in my work. 
+- **I do research** that blends theory with experimentation. Most of my math work involves exploring abstract structures with computational tools. I really enjoy this process—digging into patterns, testing ideas, and building intuition from the ground up.
 
-- **Transitioning into industry,**  I’m especially excited by areas where rigorous thinking and experimentation intersect — where we can use computation not just to build models, but to understand them. 
+- **I’m driven by applications**. In math, I’ve always liked seeing how results from one area can be used to make progress in another area. While these applications are still exciting to me I’ve found myself seeking something with more immediate feedback, something that connects more directly to the world we live in.
 
-- **I enjoy** applications and getting my hands dirty. Whether in mathematics, ML — or construction 🔨 — I’m most energized when my work connects to something larger: informing another field, clarifying something messy, or contributing to real-world impact.
+- **I’ve always loved figuring out how things work**. As a kid, that meant dismantling bikes and building shaky furniture out of scrap wood. Later, it turned into math and tech—and more recently, a fascination with machine learning and the black boxes we try to understand.
 
-With the rapid acceleration of AI, I’ve become increasingly focused on the safety and societal implications of these systems. This has led me to pursue interpretability and alignment — not only as technical challenges, but as essential questions for building trustworthy models.
-***Ultimately**, I hope to contribute to safe, understandable AI systems — and to apply the rigor of pure mathematics to problems with immediate, real-world impact.*
+- **I’m looking for work** where I can bring together research, curiosity, and hands-on experimentation—and apply them to problems that matter. I care deeply about understanding the tools we build, not just using them, and that’s what draws me to ML.
 
-> 🎥🔨 *Fun fact:  I used to work in residential construction, and more recently did video editing during grad school.*
+With the rapid acceleration of AI, I’ve become increasingly interested in its safety and societal impact. That’s led me to explore mechanistic interpretability and alignment—not just as technical puzzles, but as essential questions for building systems we can actually trust.
 
+***Ultimately**, I want to contribute to safe, understandable AI—and to bring the rigor of mathematics to problems with real-world urgency.*
 
 
 ## About this github:
