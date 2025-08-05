@@ -11,18 +11,19 @@
 ## About Me
 I'm currently a postdoctoral fellow at the University of Toronto working in number theory and arithmetic statistics, and I'm in the process of transitioning into industry.
 
-- **I do research** that blends theory with experimentation. Most of my math work involves exploring abstract structures with computational tools. I really enjoy this process—digging into patterns, testing ideas, and building intuition from the ground up.
+- **I do research** that blends theory with experimentation. Most of my math work involves exploring abstract structures via computational tools. I really enjoy this process—digging into patterns, testing ideas, and building intuition from the ground up.
 
 - **I’m driven by applications**. In math, I’ve always liked seeing how results from one area can be used to make progress in another area. While these applications are still exciting to me I’ve found myself seeking something with more immediate feedback, something that connects more directly to the world we live in.
 
-- **I’ve always loved figuring out how things work**. As a kid, that meant dismantling bikes and building shaky furniture out of scrap wood. Later, it turned into math and tech—and more recently, a fascination with machine learning and the black boxes we try to understand.
+- **I’ve always loved figuring out how things work**. As a kid, that meant dismantling bikes and building shaky furniture out of scrap wood. Later, it turned into math and tech—and more recently, a fascination with machine learning and the black boxes we can try to understand.
 
-- **I’m looking for work** where I can bring together research, curiosity, and hands-on experimentation—and apply them to problems that matter. I care deeply about understanding the tools we build, not just using them, and that’s what draws me to ML.
+- **I’m looking for work** where I can bring together research, curiosity, and hands-on experimentation—and apply them to problems that matter. I care deeply about understanding the tools we build, not just using them, and these are the reasons that I am drawn to ML.
 
 With the rapid acceleration of AI, I’ve become increasingly interested in its safety and societal impact. That’s led me to explore mechanistic interpretability and alignment—not just as technical puzzles, but as essential questions for building systems we can actually trust.
 
-***Ultimately**, I want to contribute to safe, understandable AI—and to bring the rigor of mathematics to problems with real-world urgency.*
+**Ultimately**, *I want to contribute to safe, understandable AI—and to bring the rigor of mathematics to problems with real-world applications and urgency.*
 
+> Fun fact: I used to work in residential construction and have helped build homes in the US and Canada. More recently I worked in video production, doing editing/color work for various short films/YouTube videos in Hawaii. 
 
 ## About this github:
 Most of my repos involve small from-scratch builds, visualizations (whenever possible), and interpretability experiments. The hope is that they are readable (albeit a bit long at times), testable, and useful for learning — both mine and yours. More about my approach [here](https://github.com/eriktholmes/eriktholmes/blob/main/learning_approach.md).
