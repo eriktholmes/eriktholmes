@@ -8,22 +8,21 @@
   | --------- | 
 <br>
 
-## About Me
-I'm currently a postdoctoral fellow at the University of Toronto working in number theory and arithmetic statistics, and I'm in the process of transitioning into industry.
+# About Me
+I’m a postdoctoral researcher at the University of Toronto, specializing in number theory and arithmetic statistics. I'm now pivoting into machine learning, motivated by the opportunity to apply rigorous thinking to high-impact, real-world challenges.
 
-- **I do research** that blends theory with experimentation. Most of my math work involves exploring abstract structures via computational tools. I really enjoy this process—digging into patterns, testing ideas, and building intuition from the ground up.
 
-- **I’m driven by applications**. In math, I’ve always liked seeing how results from one area can be used to make progress in another area. While these applications are still exciting to me I’ve found myself seeking something with more immediate feedback, something that connects more directly to the world we live in.
+📚 ➕ 🧪 **I enjoy work that blends theory with experimentation and am driven by applications**:
+   
+  - Most of my research involves using computational tools to explore abstract structures. I really enjoy the process—digging into patterns, testing ideas, and building intuition from the ground up.
+  - While I do love math, I’ve found I’m most energized when research connects to something more tangible. With AI advancing quickly and showing up in nearly every domain, I decided to shift gears.
+  - I’ve been especially drawn to interpretability, alignment, and the challenge of building systems we can actually trust.
 
-- **I’ve always loved figuring out how things work**. As a kid, that meant dismantling bikes and building shaky furniture out of scrap wood. Later, it turned into math and tech—and more recently, a fascination with machine learning and the black boxes we can try to understand.
+**Ultimately**, I want to contribute to safe, understandable AI—and to bring the rigor of mathematics to problems with real-world applications and urgency.
 
-- **I’m looking for work** where I can bring together research, curiosity, and hands-on experimentation—and apply them to problems that matter. I care deeply about understanding the tools we build, not just using them, and these are the reasons that I am drawn to ML.
+> Fun fact: Before academia, I worked in residential construction (helped build homes in the U.S. and Canada) and later as a video editor on various small projects in Hawaii. I like building things—whether out of wood, images, or code.
 
-With the rapid acceleration of AI, I’ve become increasingly interested in its safety and societal impact. That’s led me to explore mechanistic interpretability and alignment—not just as technical puzzles, but as essential questions for building systems we can actually trust.
-
-**Ultimately**, *I want to contribute to safe, understandable AI—and to bring the rigor of mathematics to problems with real-world applications and urgency.*
-
-> Fun fact: I used to work in residential construction and have helped build homes in the US and Canada. More recently I worked in video production, doing editing/color work for various short films/YouTube videos in Hawaii. 
+<br> 
 
 ## About this github:
 Most of my repos involve small from-scratch builds, visualizations (whenever possible), and interpretability experiments. The hope is that they are readable (albeit a bit long at times), testable, and useful for learning — both mine and yours. More about my approach [here](https://github.com/eriktholmes/eriktholmes/blob/main/learning_approach.md).
@@ -58,23 +57,12 @@ Most of my repos involve small from-scratch builds, visualizations (whenever pos
 - ✍️ Also I am still working on various [research projects](https://erikholmesmath.com/research.htm) in number theory. 
 -->
 
-<br> 
-
-## 🪚 Some current/recent work:
-- 🔧 [micrograd](https://github.com/eriktholmes/zero_to_hero_course/tree/main/micrograd), [makemore](https://github.com/eriktholmes/zero_to_hero_course/tree/main/makemore), [gpt_mini](https://github.com/eriktholmes/zero_to_hero_course/tree/main/gpt): foundational deep learning models, built for hands-on learning
-- 🔬 [interpreting_mnist](https://github.com/eriktholmes/interpreting_mnist/tree/main/MLP): exploratory repo on internal neuron behavior (activation drift, normalization effects, etc.)
-- 🧠 [mlp_explained_pytorch](https://github.com/eriktholmes/educational_notebooks/blob/main/mlp_explained_pytorch.ipynb): breakdown of an MLP in PyTorch, inspired by the micrograd build
-- 🎲 [ai_sandbox](https://github.com/eriktholmes/ai_sandbox): experimental repo, currently looking at reinforcement learning environments and AlphaZero-style agents
-- 🔣 [Number theory research](https://erikholmesmath.com/research.htm): ongoing collaborations on lattices in number theory, and in how their geometry varies within *natural* families. 
-
-
-
 
 
 <br> 
 <br> 
 
-## 📌 Featured (ML related) Repositories
+# 📌 Featured (ML related) Repositories
 
 ## [`interpreting_mnist`](https://github.com/eriktholmes/interpreting_mnist)
 This repo explores the internal workings of image classifiers - to break apart/intervene in the black box and try to interpret the inner workings. The goal is to build and document real interpretability tools — starting from first principles and scaling up.
@@ -154,6 +142,41 @@ A walkthrough of Andrej Karpathy’s Zero to Hero YouTube series. Includes:
   >
   > [ 275 ]
   > ```
+
+For comparison purpsoses I also finetuned a tinyllama model by feeding it the Robert Frost poems. Here is one of the resulting poems:
+  > ```
+  > THE RUTHLESS STAR  
+  >
+  > You have to admit, when I was a boy, I had a star.  
+  > 
+  > Sitting on its own high, high in the sky.
+  >
+  > What a strange thing to do, to have a star,  
+  >
+  > When I was only a little boy.
+  >
+  > But I was a boy then, and I knew I was a boy.  
+  >
+  > And I knew this star, with its own little sky,  
+  >
+  > And I knew it had to do what it wanted to do.  
+  >
+  > And I knew this star, with its own little sky,  
+  >
+  > And I knew it had to do what it wanted to do.  
+  >
+  > But not to me, I'm sure, was there any special reason.  
+  >
+  > I only know I was astonished.  
+  >
+  > And I was very lonely. There sat my star.  
+  >
+  > And there was no one to say a word to.  
+  >
+  > [No 199] 
+  > ```
+
+
 ---
 
 ## [```ai_sandbox```](https://github.com/eriktholmes/ai_sandbox) 
@@ -182,6 +205,14 @@ A catch-all for math-related code, currently focused on:
 - Ongoing research on lattices and questions of distribution
 - Ultimately, I am excited about a possible application of lattice shapes to log terms in Malle's conjecture (which is roughly about the asymptotics of specialized counting functions) and hope to have some code related to that at some point...?
 -->
+<br> 
+
+## 🪚 Some current/recent work:
+- 🔧 [micrograd](https://github.com/eriktholmes/zero_to_hero_course/tree/main/micrograd), [makemore](https://github.com/eriktholmes/zero_to_hero_course/tree/main/makemore), [gpt_mini](https://github.com/eriktholmes/zero_to_hero_course/tree/main/gpt): foundational deep learning models, built for hands-on learning
+- 🔬 [interpreting_mnist](https://github.com/eriktholmes/interpreting_mnist/tree/main/MLP): exploratory repo on internal neuron behavior (activation drift, normalization effects, etc.)
+- 🧠 [mlp_explained_pytorch](https://github.com/eriktholmes/educational_notebooks/blob/main/mlp_explained_pytorch.ipynb): breakdown of an MLP in PyTorch, inspired by the micrograd build
+- 🎲 [ai_sandbox](https://github.com/eriktholmes/ai_sandbox): experimental repo, currently looking at reinforcement learning environments and AlphaZero-style agents
+- 🔣 [Number theory research](https://erikholmesmath.com/research.htm): ongoing collaborations on lattices in number theory, and in how their geometry varies within *natural* families. 
 
 
 
