@@ -126,7 +126,8 @@ All analysis is on MNIST. The track is organized into three notebooks:
 A walkthrough of Andrej Karpathy’s Zero to Hero YouTube series. Includes:
 - A build of [micrograd](https://github.com/eriktholmes/Zero-to-hero-course/tree/main/episode-1/micrograd): experiments on custom activations, and attempts at understanding neuron activations. Exploratory/blog-style notes and diagrams (with more to come!)
 - [makemore](https://github.com/eriktholmes/Zero-to-hero-course/tree/main/episode_2), a character-level language model inspired by Karpathy’s series. So far, we've implemented a bigram model that predicts the next character from the previous one, trained on the names dataset. Next, we are extending this to a flexible context window model that utilizes multiple preceding characters. Along the way, we are incorporating techniques from later episodes—like improved optimization strategies and training intuition. For readers interested in interpretability and training dynamics (e.g., why normalization matters), see also the interpreting_mnist repo below.
-- [Generative Pretrained Transfomer (GPT)](https://github.com/eriktholmes/zero_to_hero_course/tree/main/gpt): We build up slowly from a simple bigram model-as in makemore-to a samll decoder only transformer trained on a CPU, and eventually end by scaling up the models parameters and running on a T4 GPU. We train the model on the works of Robert Frost: (here's one somewhat structured but nonsensical output... it is a small character level model at the end of the day!)
+- [Generative Pretrained Transfomer (GPT)](https://github.com/eriktholmes/zero_to_hero_course/tree/main/gpt): We build up slowly from a simple bigram model-as in makemore-to a samll decoder only transformer trained on a CPU, and eventually end by scaling up the models parameters and running on a T4 GPU. We train the model on the works of Robert Frost: (here's one somewhat structured but nonsensical output... it is a small character level model at the end of the day!)\
+    - [Here](https://github.com/eriktholmes/educational_notebooks/blob/main/Transformer_outline.ipynb) is a short(ish) blurb on the transformer architecture that I wrote to accompany this project... I hope to clean it up in the near future and add some relevant visualizations!
   > ```
   > ONENT 
   >
@@ -143,7 +144,7 @@ A walkthrough of Andrej Karpathy’s Zero to Hero YouTube series. Includes:
   > [ 275 ]
   > ```
 
-For comparison purpsoses I also finetuned a tinyllama model by feeding it the Robert Frost poems. Here is one of the resulting poems:
+    - For comparison purpsoses I also finetuned a [tinyllama](https://huggingface.co/TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T) model by feeding it the Robert Frost dataset. Here is one of the poems the model generated:
   > ```
   > THE RUTHLESS STAR  
   >
