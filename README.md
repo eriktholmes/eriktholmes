@@ -184,8 +184,8 @@ A walkthrough of Andrej Karpathy’s Zero to Hero YouTube series. Includes:
 An informal space for ML/AI experimentation — currently focused on reinforcement learning and game-playing agents.
 
 - Currently working on AlphaZero (lite). So far we have:
-    - Built custom environments for Tic Tac Toe and Connect Four
-        > <img width="140" height="120" alt="Screenshot 2025-08-06 at 12 44 18 PM" src="https://github.com/user-attachments/assets/5db680f6-fa78-4e74-8601-c4f153d208ce" />
+    - Built game environments for Tic Tac Toe and Connect Four:
+        > <img width="120" height="120" alt="Screenshot 2025-08-07 at 2 49 44 PM" src="https://github.com/user-attachments/assets/aabf5c0c-5cae-46ea-ad9f-d8fdbda360ce" />    <img width="140" height="120" alt="Screenshot 2025-08-06 at 12 44 18 PM" src="https://github.com/user-attachments/assets/5db680f6-fa78-4e74-8601-c4f153d208ce" />
     - Implemented basic Monte Carlo Tree Search (MCTS) for Tic Tac Toe
     - Ran baseline simulations to benchmark simple strategies:
         - Random vs. Random
