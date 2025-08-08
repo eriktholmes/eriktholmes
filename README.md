@@ -122,7 +122,24 @@ All analysis is on MNIST. The track is organized into three notebooks:
 ---
 
 
-## [`Zero-to-hero-course`](https://github.com/eriktholmes/Zero-to-hero-course)
+## [`ml-fundamentals`](https://github.com/eriktholmes/ml-fundamentals-from-scratch)
+From-scratch implementations of key deep learning building blocks — from a scalar autograd engine (`micrograd`) to a mini GPT trained on Robert Frost’s poetry.
+**Highlights**:
+- Implemented MLPs, embeddings, self-attention, and Transformer blocks in PyTorch/NumPy.
+- Trained a 7M-parameter character-level GPT (“Frosty”) to generate plausible verses in the style of Robert Frost.
+- Fully reproducible with clear walkthroughs and annotated notebooks.\
+
+📈 **Sample output from *Frosty***:
+  ```
+  To learned me there with other they forget—in verning. 
+  You see and not blown?’ have to losen. 
+  
+  God their race are that of those provals across the brook 
+  Be there blacked to himself on a man, 
+  But almost There thoughow hear were and fool. 
+  ```
+
+<!--
 A walkthrough of Andrej Karpathy’s Zero to Hero YouTube series. Includes:
 - A build of [micrograd](https://github.com/eriktholmes/Zero-to-hero-course/tree/main/episode-1/micrograd): experiments on custom activations, and attempts at understanding neuron activations. Exploratory/blog-style notes and diagrams (with more to come!)
 - [makemore](https://github.com/eriktholmes/Zero-to-hero-course/tree/main/episode_2), a character-level language model inspired by Karpathy’s series. So far, we've implemented a bigram model that predicts the next character from the previous one, trained on the names dataset. Next, we are extending this to a flexible context window model that utilizes multiple preceding characters. Along the way, we are incorporating techniques from later episodes—like improved optimization strategies and training intuition. For readers interested in interpretability and training dynamics (e.g., why normalization matters), see also the interpreting_mnist repo below.
@@ -176,7 +193,7 @@ A walkthrough of Andrej Karpathy’s Zero to Hero YouTube series. Includes:
   >
   > [No 199] 
   > ```
-
+-->
 
 ---
 
