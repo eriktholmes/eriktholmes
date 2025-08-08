@@ -9,7 +9,37 @@
 <br>
 
 # About Me
-I’m a postdoctoral researcher at the University of Toronto, specializing in number theory and arithmetic statistics. I'm now pivoting into machine learning, motivated by the opportunity to apply rigorous thinking to high-impact, real-world challenges.
+I’m a postdoctoral researcher at the University of Toronto specializing in number theory and arithmetic statistics, now pivoting into machine learning to apply rigorous, research-driven thinking to high-impact, real-world problems.
+
+#### Core focus:
+
+- Mechanistic interpretability, alignment, and safe AI systems
+- From-scratch deep learning builds and reproducible experiments
+- Applying mathematical rigor to complex system analysis
+
+#### Strengths:
+- PhD in mathematics with focus on computationally informed number theory (10+ years of experience with abstraction, proof, and computation)
+- Strong Python skills; comfortable with PyTorch and from-scratch implementations
+- Track record of blending theory + experimentation in research settings
+
+<br>
+
+## 🤔 My Research Philosophy (I am...)
+
+- **Application-driven**: I’m most excited when theory connects to something tangible and impactful.
+- **Problem-centric learner**: given a problem, what tools do we need to understand to solve the problem?
+- **Computational explorator**: In both mathematics and ML, I use computation to probe abstract structures, uncover patterns, and build intuition from the ground up.
+- **Focused on interpretability & alignment**: The rapid evolution of AI — and its societal impact — drew me to these areas, where better tools and understanding can directly lead to safer, more capable models.
+
+*Ultimately*: I want to contribute to safe, understandable AI — bringing my mathematics background to problems with real-world urgency.
+
+> **Fun fact**: Before academia, I worked in residential construction in the U.S. and Canada, and later as a video editor in Hawaii. I enjoy building things — whether with wood, images, or cdoe.
+
+
+<br>
+
+
+<!--
 
 
 📚 ➕ 🧪 **I enjoy work that blends theory with experimentation and am driven by applications**:
@@ -28,25 +58,27 @@ I’m a postdoctoral researcher at the University of Toronto, specializing in nu
 Most of my repos involve small from-scratch builds, visualizations (whenever possible), and interpretability experiments. The hope is that they are readable (albeit a bit long at times), testable, and useful for learning — both mine and yours. More about my approach [here](https://github.com/eriktholmes/eriktholmes/blob/main/learning_approach.md).
 
 <br> 
-
+-->
 
 
 ## 🎯 Goals
 
-> Building toward an interpretability/safety-focused ML research or engineering role by **August 2025**.
+> Building toward an interpretability/safety-focused ML research or engineering role by **2026**.
 
 ### 🔍 Current Focus (Summer 2025)
-- **Rebuild foundational ML models from scratch**: micrograd, makemore, and a minimal GPT — to deeply understand core architectures, training dynamics, and attention mechanisms
-- **Probe internals of trained vision models**: analyze MLP/CNN classifiers on MNIST using neuron selectivity, ablation, activation drift, and PCA/UMAP-based subspace analysis
-- **Explore toy reinforcement learning agents**: build AlphaZero-lite implementations (e.g., Connect Four) with Monte Carlo Tree Search and policy/value networks
-- **Use interpretability tooling on Transformers**: focus on TransformerLens
-- **Investigate fine-tuning effects on representation space**: examine how supervised or preference-based fine-tuning shifts neuron behavior, attention patterns, and decision boundaries
+- Master core architectures by rebuilding micrograd, makemore, and a minimal GPT from scratch — deepening understanding of training dynamics and attention.
+- Analyze vision model internals via neuron selectivity, ablation, activation drift, and PCA/UMAP subspace analysis on MNIST MLP/CNNs.
+- Develop toy RL agents with AlphaZero-lite (e.g., Connect Four) using Monte Carlo Tree Search and policy/value networks.
+- Apply Transformer interpretability tools, focusing on TransformerLens experiments.
+- Investigate fine-tuning effects on representation space, tracking neuron shifts, attention patterns, and decision boundaries.
 
 ### 🔭 Long-Term
-- Contribute to safe, interpretable AI systems
-- Apply math/ML hybrid skills to real-world problems
-- Collaborate on research that bridges theory and applied ML
+- Contribute to safe, interpretable AI systems.
+- Apply math/ML hybrid skills to impactful, real-world problems.
+- Collaborate on research that bridges theory and applied ML.
 
+
+---
 
 <!--
 - 📚 I am working to understand foundational concepts and interpretability through ML projects and courses: for example project builds like [micrograd](https://github.com/eriktholmes/Zero-to-hero-course/tree/main/episode-1/micrograd),  [makemore](https://github.com/eriktholmes/Zero-to-hero-course/tree/main/episode_2), and (*currently the skeleton of*) [AlphaZero lite](https://github.com/eriktholmes/ai_sandbox). 
@@ -65,60 +97,14 @@ Most of my repos involve small from-scratch builds, visualizations (whenever pos
 # 📌 Featured (ML related) Repositories
 
 ## [`interpreting_mnist`](https://github.com/eriktholmes/interpreting_mnist)
-This repo explores the internal workings of image classifiers - to break apart/intervene in the black box and try to interpret the inner workings. The goal is to build and document real interpretability tools — starting from first principles and scaling up.
-
-The project is structured as two parallel tracks (for now): one using a basic MLP, the other (in progress) extending to a CNN. Each track is presented through annotated notebooks with exploratory commentary, code, and visualizations. The final goal is to distill these findings into a blog post/write-up.
-
-### Part 1: [`MLP`](https://github.com/eriktholmes/interpreting_mnist/tree/main/MLP):
-We dedicate three notebooks to this experiment: throughout our model is a 2 layer MLP (32 -> 16 neuron hidden layers). We use SGD and fixed learning rate over 20 epochs.
-
-All analysis is on MNIST. The track is organized into three notebooks:
-
-
-- **Notebook 1: (unnormalized baseline)**
+Neuron-level interpretability experiments on MLP/CNN classifiers trained on MNIST.
+- **Methods**: activation tracking, selectivity scoring, ablations, activation drift, PCA/UMAP visualization of feature subspaces.
+- **Key finding**: Discovered “bottleneck neurons” — ablating a single neuron reduced accuracy on digit “6” to 0%, while leaving others mostly unaffected.
+- Includes annotated notebooks, visualizations, and upcoming CNN/Transformer comparisons.
+  
+  > <img width="400" height="300" alt="Screenshot 2025-08-06 at 11 39 05 AM" src="https://github.com/user-attachments/assets/8b857c5d-a2e7-4ab3-9fdb-d60a60bee24d" />
   >
-  > Some experiments include:
-  > - track neuron activations across epochs: manually in this notebook, then with hooks in notebook 2.
-  > - Class-based activation statistics to identify class-specific or feature-detecting neurons
-  > - Activation drift analysis, showing how selectivity changes over time
-  > - Dimensionality reduction (PCA, t-SNE, UMAP) applied to the final hidden layer
- 
-- **Notebook 2**: (further unnormalized investigations)
-  > We go deeper into interpretability and causality:
-  > - Compute top-activating neurons per class — many show cross-class activation (shared features)
-  > - Introduce selectivity scores, comparing mean activation on a class vs. others
-  > - Perform causal interventions:
-  >     - Neuron ablation: zeroing out individual neurons
-  >     - Neuron scaling: multiplying activation values
-  > - Apply dimensionality reduction techniques on highly selective subspaces:
-  >     - take the top-$k$ neurons that are highly selective on a fixed class and apply UMAP on the $k$-dimensional subspace spanned by these neurons.
-  > We see:
-  > - Bottleneck neurons that control accuracy for specific classes — ablating them drops class accuracy to ~0%; scaling increases it monotonically
-  > - A confusion matrix showing clear misclassifications between structurally similar digits (e.g., 4, 7, 9)
-  > - Some class clustering (UMAP) on selective subspaces but its fairly noisy.
-
-
-- **Notebook 3**: with normalization and dropout (currently being cleaned up)
-  > We repeat the same experiment setup with:
-  > - Normalized inputs
-  > - Layer normalization
-  > - Dropout (to prevent overfitting)
-  > We observe:
-  > - Faster training: matches baseline accuracy in a quarter to half of the epochs
-  > - Better generalization: reduced overfitting and more stable neuron behavior
-  > - UMAP on top selective neurons shows clearer clustering with possible submanifold shadows — the data forms curves or paths in the latent space, suggesting underlying geometric structure --> We are investigating this further:
-
-
-- **Some visualizations:**
-  > |     |   Activation drift   |  Neuron scaling | Confusion Matrix | UMAP class selective subspace |
-  > | --- | :---------: | :-------: |:-------: | :-------: |
-  > |Non-normalized| <img width="736" height="570" alt="Screenshot 2025-07-30 at 3 16 32 PM" src="https://github.com/user-attachments/assets/b35bbe13-b30d-4d74-8ebc-29d745cad1d0" />|<img width="871" alt="Screenshot 2025-07-05 at 5 46 51 PM" src="https://github.com/user-attachments/assets/71019267-ea5b-4088-98ad-3695376ad478" />|<img width="521" alt="Screenshot 2025-07-04 at 2 12 04 PM" src="https://github.com/user-attachments/assets/cf03f4cb-2529-4304-8b91-89fc052f53d2" />|<img width="927" height="671" alt="Screenshot 2025-08-06 at 11 46 30 AM" src="https://github.com/user-attachments/assets/cd13d09b-87d8-4882-afa6-75881d6be62d" />|
-  > |Normalized|<img width="743" height="562" alt="Screenshot 2025-08-06 at 11 56 54 AM" src="https://github.com/user-attachments/assets/d4d00adb-16fb-4640-b0e7-b72382ed8dda" />|<img width="869" height="660" alt="Screenshot 2025-08-06 at 11 39 05 AM" src="https://github.com/user-attachments/assets/8b857c5d-a2e7-4ab3-9fdb-d60a60bee24d" />|<img width="535" height="544" alt="Screenshot 2025-08-06 at 11 39 24 AM" src="https://github.com/user-attachments/assets/7a857f8f-58a5-413f-9ef3-1f11343a86da" />|<img width="883" height="674" alt="Screenshot 2025-08-06 at 11 41 52 AM" src="https://github.com/user-attachments/assets/98bc797e-9976-4de1-ac0c-e09687cf8103" />|
-
-
--  I have numerous questions/experiments in mind at this point: from selectively based prune and its affect on model interpretability, to selectively based subspace analysis, and ultimately to compare the MLP experiments with CNN vs Transformer architechures. In any case, there will be more to come!
-
-
+  > <sub>Scaling a single neuron’s activation boosts accuracy on digit “8” while leaving other classes (mostly) unchanged</sub>
 ---
 
 
@@ -200,7 +186,7 @@ A walkthrough of Andrej Karpathy’s Zero to Hero YouTube series. Includes:
 ## [```ai_sandbox```](https://github.com/eriktholmes/ai_sandbox) 
 An informal space for ML/AI experimentation — currently focused on reinforcement learning and game-playing agents.
 
-- Currently working on AlphaZero (lite). So far we have:
+- **Current focus**: AlphaZero-lite implementations for small board games.
     - Built game environments for Tic Tac Toe and Connect Four:
         > <img width="120" height="120" alt="Screenshot 2025-08-07 at 2 49 44 PM" src="https://github.com/user-attachments/assets/aabf5c0c-5cae-46ea-ad9f-d8fdbda360ce" />    <img width="140" height="120" alt="Screenshot 2025-08-06 at 12 44 18 PM" src="https://github.com/user-attachments/assets/5db680f6-fa78-4e74-8601-c4f153d208ce" />
     - Implemented basic Monte Carlo Tree Search (MCTS) for Tic Tac Toe
@@ -208,11 +194,7 @@ An informal space for ML/AI experimentation — currently focused on reinforceme
         - Random vs. Random
         - Random vs. Greedy
         - Random vs. MCTS
-    - Coming soon:
-        - integrating value networks
-        - training self-play agents
-        - and (hopefully) a game environment to play against the Alphazero agents in each game.
-  
+    - Next steps: integrate value networks, train self-play agents, and add an interactive environment to play against them.
 
 
 <!--
@@ -232,6 +214,10 @@ A catch-all for math-related code, currently focused on:
 - 🎲 [ai_sandbox](https://github.com/eriktholmes/ai_sandbox): experimental repo, currently looking at reinforcement learning environments and AlphaZero-style agents
 - 🔣 [Number theory research](https://erikholmesmath.com/research.htm): ongoing collaborations on lattices in number theory, and in how their geometry varies within *natural* families. 
 
+<br> 
+
+## About this github:
+Most repos here include small from-scratch builds, visualizations, and interpretability experiments. I aim for readable, testable, and educational work — both for myself and others. More about my approach [here](https://github.com/eriktholmes/eriktholmes/blob/main/learning_approach.md).
 
 
 <br>
