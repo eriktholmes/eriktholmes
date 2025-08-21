@@ -10,7 +10,9 @@
 
 # About Me
 
-I’m a mathematician and postdoctoral researcher at the University of Toronto, with a focus on computational methods in number theory and arithmetic statistics and am transitioning into AI/ML. My focus is on mechanistic interpretability, alignment, and safe AI systems — applying a decade of mathematical research experience to build models that are both powerful and understandable.
+I’m a mathematician and postdoctoral researcher at the University of Toronto, with a focus on computational methods in number theory and arithmetic statistics and am transitioning into AI/ML. My focus is on mechanistic interpretability, alignment, and safe AI systems — applying a decade of mathematical research experience to build models that are both powerful and understandable. 
+
+> I’m excited about applying machine learning both in research settings (interpretability, alignment, model internals) and in practical applications such as building sustainable tools and community-focused systems.
 
 I bring:
 
@@ -56,7 +58,7 @@ Broadly, I enjoy project based learning: in mathematics I like to start with 'to
 Most of my repos involve small from-scratch builds, visualizations (whenever possible), and interpretability experiments. The hope is that they are readable (albeit a bit long at times), testable, and useful for learning — both mine and yours. More about my approach [here](https://github.com/eriktholmes/eriktholmes/blob/main/learning_approach.md).
 
 <br> 
--->
+
 
 
 ## 🎯 Goals
@@ -78,7 +80,7 @@ Most of my repos involve small from-scratch builds, visualizations (whenever pos
 
 ---
 
-<!--
+
 - 📚 I am working to understand foundational concepts and interpretability through ML projects and courses: for example project builds like [micrograd](https://github.com/eriktholmes/Zero-to-hero-course/tree/main/episode-1/micrograd),  [makemore](https://github.com/eriktholmes/Zero-to-hero-course/tree/main/episode_2), and (*currently the skeleton of*) [AlphaZero lite](https://github.com/eriktholmes/ai_sandbox). 
   - these toy problems led me to port the micrograd approach to PyTorch, train a basic classifier on MNIST data and analyze neuron behavior through pixel activation maps.
     - [HERE](https://github.com/eriktholmes/educational_notebooks/blob/main/mlp_explained_pytorch.ipynb) I spend an afternoon writing a basic overview of MLPs from this micrograd perspective.  
