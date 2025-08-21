@@ -9,37 +9,35 @@
 <br>
 
 # About Me
-I’m a postdoctoral researcher at the University of Toronto specializing in number theory and arithmetic statistics, now pivoting into machine learning to apply rigorous, research-driven thinking to high-impact, real-world problems.
 
-#### Core focus:
+I’m a mathematician and postdoctoral researcher at the University of Toronto, with a focus on computational methods in number theory and arithmetic statistics and am transitioning into AI/ML. My focus is on mechanistic interpretability, alignment, and safe AI systems — applying a decade of mathematical research experience to build models that are both powerful and understandable.
 
-- Mechanistic interpretability, alignment, and safe AI systems
-- From-scratch deep learning builds and reproducible experiments
-- Applying mathematical rigor to complex system analysis
+I bring:
 
-#### Strengths:
-- PhD in mathematics with focus on computationally informed number theory (10+ years of experience with abstraction, proof, and computation)
-- Strong Python skills; comfortable with PyTorch and from-scratch implementations
-- Track record of blending theory + experimentation in research settings
+- **PhD in mathematics** — 10+ years of abstraction, proof, and computational research
+- **Strong Python & PyTorch skills** — from-scratch builds, reproducible experiments
+- **Research-driven mindset** — blending theory, computation, and clear communication
 
-<br>
+Beyond the technical side, I care deeply about using AI to foster community and human connection rather than diminish it.
 
-## 🤔 My Research Philosophy (I am...)
-
-- **Application-driven**: I’m most excited when theory connects to something tangible and impactful.
-- **Problem-centric learner**: given a problem, what tools do we need to understand to solve the problem?
-- **Computational explorator**: In both mathematics and ML, I use computation to probe abstract structures, uncover patterns, and build intuition from the ground up.
-- **Focused on interpretability & alignment**: The rapid evolution of AI — and its societal impact — drew me to these areas, where better tools and understanding can directly lead to safer, more capable models.
-
-*Ultimately*: I want to contribute to safe, understandable AI — bringing my mathematics background to problems with real-world urgency.
-
-> **Fun fact**: Before academia, I worked in residential construction in the U.S. and Canada, and later as a video editor in Hawaii. I enjoy building things — whether with wood, images, or cdoe.
-
-
-<br>
+*Ultimately*: I want to help push the boundaries of AI while keeping it safe, interpretable, and human-centered.
 
 
 <!--
+## 🤔 My Research Philosophy
+Broadly, I enjoy project based learning: in mathematics I like to start with 'toy' problems (low dimensional case analysis), focus on visualizations whenever possible, and try to build intuition and tools based on computational exploratation. By starting small and understanding the mechanisms at work questions naturally arise, and these often involve learning/understanding/developing new tools to solve. I am taking the same approach with ML. Some key words that describe my ideals:
+- **Application-driven**: I’m most excited when theory connects to something tangible and impactful.
+- **Computational explorator**: In both mathematics and ML, I use computation to probe abstract structures, uncover patterns, and build intuition from the ground up.
+- **Focused on interpretability & alignment**: The rapid evolution of AI — and its societal impact — drew me to these areas, where better tools and understanding can directly lead to safer, more capable models.
+
+
+> **Fun fact**: Before academia, I worked in residential construction in the U.S. and Canada, and later as a video editor in Hawaii.
+
+
+<br>
+
+
+
 
 
 📚 ➕ 🧪 **I enjoy work that blends theory with experimentation and am driven by applications**:
