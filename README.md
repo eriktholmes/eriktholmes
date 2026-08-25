@@ -4,25 +4,26 @@
 
 <br>
 
-  | <sub>⚠️ Disclaimer: This GitHub is part learning journal/blog, part experimental sandbox — evolving as I work through various projects. It's a bit nerdy, occasionally verbose, and sometimes a little chaotic — but the goal is to build a rigorous foundation in maachine learning with a focus on interpretability and alignment.</sub>| 
+  | <sub>⚠️ Disclaimer: This GitHub is part learning journal/blog, part experimental sandbox — evolving as I work through various projects in my spare time. It's a bit nerdy, verbose, and slightly chaotic — but the goal is to build a foundation in maachine learning with an eye towards interpretability and alignment.</sub>| 
   | --------- | 
 <br>
 
 # About Me
 
-I’m a mathematician and postdoctoral researcher at the University of Toronto, with a focus on computational methods in number theory and arithmetic statistics and am transitioning into AI/ML. My focus is on mechanistic interpretability, alignment, and safe AI systems — applying a decade of mathematical research experience to build models that are both powerful and understandable. 
+I’m a data-driven mathematician and have held postdoctoral positions at the University of Calgary and, most recently, the University of Toronto. My academic research has focused on computational methods in number theory and arithmetic statistics but I am increasingly interested in applying mathematics to problems in the 'real' world. Currently, I am interested in applying quantitative methods to various industries, and studying machine learning more broadly. 
 
 > I’m excited about applying machine learning both in research settings (interpretability, alignment, model internals) and in practical applications such as building sustainable tools and community-focused systems.
 
-I bring:
+I have:
 
-- **PhD in mathematics** — 10+ years of abstraction, proof, and computational research
-- **Strong Python & PyTorch skills** — from-scratch builds, reproducible experiments
-- **Research-driven mindset** — blending theory, computation, and clear communication
+- **PhD in mathematics** — 10+ years designing experiments, working with high-dimensional data, and communicating results to technical and non-technical audiences alike
+- **Python & PyTorch skills** — from numnber theory research to (more recently) from-scratch builds of basic ML architectures
+- **Research mindset** — focused on computation/data-informed conjecture, clear communication, and appropriate levels of abstraction
+- **nunchuck skills** - (okay, maybe not... but I do like feeding farm animals their supper)
 
 Beyond the technical side, I care deeply about using AI to foster community and human connection rather than diminish it.
 
-*Ultimately*: I want to help push the boundaries of AI while keeping it safe, interpretable, and human-centered.
+*Ultimately*: I care about humans, and keeping the technology we use safe, interpretable, and human-centered.
 
 
 <!--
